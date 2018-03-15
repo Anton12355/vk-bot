@@ -10,9 +10,9 @@
 	<script src="functions.js"></script>
 </head>
 <body>
-<a href="<?php echo 'http://' . $_SERVER['HTTP_HOST']; ?>/vk-bot_get_wall/vk-bot?action=get_users&user_ids=17439143,763899,1">Users</a>
-<a href="<?php echo 'http://' . $_SERVER['HTTP_HOST']; ?>/vk-bot_get_wall/vk-bot?user_ids=763897&action=get_friends&page=2">Friends</a>
-<a href="<?php echo 'http://' . $_SERVER['HTTP_HOST']; ?>/vk-bot_get_wall/vk-bot?user_ids=763897&action=get_wall">Wall</a>
+<a href="<?php echo 'http://' . $_SERVER['HTTP_HOST']; ?>/vk-bot/vk-bot?action=get_users&user_ids=17439143,763899,1">Users</a>
+<a href="<?php echo 'http://' . $_SERVER['HTTP_HOST']; ?>/vk-bot/vk-bot?user_ids=763897&action=get_friends&page=2">Friends</a>
+<a href="<?php echo 'http://' . $_SERVER['HTTP_HOST']; ?>/vk-bot/vk-bot?user_ids=763897&action=get_wall">Wall</a>
 <h3>Отправка сообщений на стену</h3>
 <form class="wall_post" action="?action=do_post" method="post">
 	<div>
