@@ -8,7 +8,7 @@ $( function () {
 			if ( sex === data_sex ) {
 				sex_radio[ i ].setAttribute( 'style', 'display: visible' );
 				users_item[ i ].setAttribute( 'style', 'display: visible' );
-			} else if (sex === 0) {
+			} else if (sex == 0) {
 				sex_radio[ i ].setAttribute( 'style', 'display: visible' );
 				users_item[ i ].setAttribute( 'style', 'display: visible' );
 			} else {

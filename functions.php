@@ -57,7 +57,7 @@ function template_users( $users ) {
 		$out = '';
 		if ( is_array( $users ) ) {
 			foreach ( $users as $user ) {
-				$out .= '<div class="users__item">' . template_user( $user ) . '</div>';
+				$out .= '<div class="users__item" data-sex="' . $user['sex'] . '">' . template_user( $user ) . '</div>';
 			}
 		}
 

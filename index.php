@@ -12,6 +12,7 @@ header( 'Content-type: text/html;charset=utf-8' );
 session_start();
 
 require_once 'Vkontakte.php';
+require_once 'header.php';
 require_once 'functions.php';
 
 global $vk;
